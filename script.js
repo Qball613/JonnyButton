@@ -66,7 +66,7 @@ startButton.addEventListener('click', () => {
     startButton.textContent = 'On Cooldown';
     
     // Set countdown for 24 hours from now
-    endTime = Date.now() + (24 * 60 * 60 * 1000);
+    endTime = Date.now() + (37.5 * 60 * 60 * 1000);
     localStorage.setItem('countdownEndTime', endTime.toString());
     
     // Update the server with the endTime
